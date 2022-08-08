@@ -424,7 +424,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/iTerm.app'"
+                                        "shell_command": "open '/Applications/Alacritty.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -574,7 +574,7 @@
                     ]
                 }
             ],
-            "name": "Kalpo",
+            "name": "Kal'",
             "parameters": {
                 "delay_milliseconds_before_open_device": 1000
             },

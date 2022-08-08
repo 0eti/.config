@@ -1,7 +1,5 @@
 # .config
 
-My dotfiles
-
 ## Alacritty
 
 ## Karabiner
