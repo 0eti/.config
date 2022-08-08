@@ -6,10 +6,9 @@
 - Treesitter
 - Auto-formatting & Linting
 - Integrated Terminal
-- Git
-- Better File Explorer
+- Git Buffer Integration
+- File Explorer
 - Fuzzy Finder
-- Bufferline
 
 ## Alacritty
 - Hack Nerd Font Mono
