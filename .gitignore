@@ -1,0 +1,12 @@
+# Mac 
+.DS_Store
+
+# Ignore Everything
+/*
+
+# Except...
+!/README.md
+!/.gitignore
+!/alacritty
+!/karabiner
+!/nvim
