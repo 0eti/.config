@@ -6,10 +6,6 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 keymap("", "<Space>", "<Nop>", opts) -- Don't want movement
 
--- File Explorer quick access
-keymap("n", "<Leader>e", ":Lexplore <CR>", opts)
--- keymap("n", "<Leader>e", ":NvimTreeToggle <CR>", opts)
-
 -- Make movement compatible w. wrapped lines by default
 keymap("n", "j", "gj", opts)
 keymap("n", "k", "gk", opts)
@@ -18,7 +14,7 @@ keymap("n", "k", "gk", opts)
 keymap("n", "<Leader>j", ":bprevious <CR>", opts)
 keymap("n", "<Leader>k", ":bnext <CR>", opts)
 
--- When indenting, keep text selected
+-- When Indenting, Keep Text Selected
 keymap("v", "<", "<gv", opts)
 keymap("v", ">", ">gv", opts)
 
@@ -26,3 +22,9 @@ keymap("v", ">", ">gv", opts)
 keymap("v", "<A-j>", ":move '>+1 <CR>gv", opts)
 keymap("v", "<A-k>", ":move '<-2 <CR>gv", opts)
 
+-- File Explorer Quick Access
+-- keymap("n", "<Leader>e", ":Lexplore <CR>", opts)
+keymap("n", "<Leader>e", ":NvimTreeToggle <CR>", opts)
+
+-- Telescope Quick Access
+keymap("n", "<Leader>ff", ":Telescope find_files <CR>", opts)
