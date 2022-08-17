@@ -1,6 +1,11 @@
 require("user.options")
 require("user.keymaps")
 require("user.colorscheme")
+
 require("user.packer")
-require("user.plugins.nvim-tree")
-require("user.plugins.nvim-cmp")
+require("user.features.file_explorer.nvim-tree")
+require("user.features.fuzzy_finder.telescope")
+require("user.features.terminal")
+require("user.features.completions.nvim-cmp")
+require("user.features.mason")
+require("user.features.lsp")

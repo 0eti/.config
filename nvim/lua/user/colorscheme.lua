@@ -1,1 +1,1 @@
-vim.cmd("colorscheme peachpuff")
+vim.cmd("colorscheme nightfox")
