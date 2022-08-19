@@ -1,21 +1,9 @@
 # .config
 
-## Neovim
-- Completions
-- LSP
-- Treesitter
-- Auto-formatting & Linting
-- Integrated Terminal
-- Git Buffer Integration
-- File Explorer
-- Fuzzy Finder
+My dotfiles for my editor setup. 
 
-## Alacritty
-- Hack Nerd Font Mono
-
-## Karabiner
-- Media Controls
-- Tab Navigation
-- Input Sources
-- App Shortcuts
-
+## Main Ideas
+- nvim for modal editing
+  - plugins
+    - completions, lsp, treesitter, formating, & linting
+    - file explorer & fuzzy finder
