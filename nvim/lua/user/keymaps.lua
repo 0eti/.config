@@ -12,8 +12,8 @@ keymap("n", "k", "gk", opts)
 
 -- Movements in Insert Mode
 keymap("i", "<C-h>", "<Left>", opts)
-keymap("i", "<C-j>", "<C-o>gj", opts)
-keymap("i", "<C-k>", "<C-o>gk", opts)
+keymap("i", "<C-j>", "<C-g>j", opts)
+keymap("i", "<C-k>", "<C-g>k", opts)
 keymap("i", "<C-l>", "<Right>", opts)
 
 -- Buffer Navigation
