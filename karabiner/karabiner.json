@@ -213,6 +213,48 @@
                                     }
                                 ],
                                 "from": {
+                                    "key_code": "j"
+                                },
+                                "to": [
+                                    {
+                                        "select_input_source": {
+                                            "input_source_id": "^com\\.apple\\.keylayout\\.USExtended$"
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "keyboard_fn pressed",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "k"
+                                },
+                                "to": [
+                                    {
+                                        "select_input_source": {
+                                            "input_mode_id": "^com\\.apple\\.inputmethod\\.SCIM\\.ITABC$",
+                                            "input_source_id": "^com\\.apple\\.inputmethod\\.SCIM\\.ITABC$",
+                                            "language": "^zh\\-Hans$"
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "keyboard_fn pressed",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
                                     "key_code": "comma"
                                 },
                                 "to": [
@@ -375,6 +417,7 @@
                                 ],
                                 "type": "basic"
                             },
+                            
                             {
                                 "conditions": [
                                     {
@@ -384,25 +427,7 @@
                                     }
                                 ],
                                 "from": {
-                                    "key_code": "j"
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open '/Applications/Google Chrome.app'"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "keyboard_fn pressed",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "from": {
-                                    "key_code": "k"
+                                    "key_code": "b"
                                 },
                                 "to": [
                                     {
@@ -420,11 +445,29 @@
                                     }
                                 ],
                                 "from": {
+                                    "key_code": "b"
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open '/System/Library/CoreServices/Finder.app'"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "keyboard_fn pressed",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "from": {
                                     "key_code": "n"
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Alacritty.app'"
+                                        "shell_command": "open '/Applications/iTerm.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -442,7 +485,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open '/Applications/Visual Studio Code.app'"
+                                        "shell_command": "open '/Applications/Google Chrome.app'"
                                     }
                                 ],
                                 "type": "basic"
