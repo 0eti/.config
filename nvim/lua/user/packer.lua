@@ -13,12 +13,9 @@ return require('packer').startup(function(use)
   -- Fuzzy Finder
   use { "nvim-telescope/telescope.nvim", { branch = "0.1.x" } }
 
-  -- Bufferline
+  -- Buffer Management
   use { "akinsho/bufferline.nvim" }
   use { "moll/vim-bbye" }
-
-  -- Integrated Terminal
-  use { "akinsho/toggleterm.nvim" }
 
   -- Completions
   use { "hrsh7th/nvim-cmp" }
