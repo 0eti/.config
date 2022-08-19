@@ -10,6 +10,12 @@ vim.g.maplocalleader = " "
 keymap("n", "j", "gj", opts)
 keymap("n", "k", "gk", opts)
 
+-- Movements in Insert Mode
+keymap("i", "<C-h>", "<Left>", opts)
+keymap("i", "<C-j>", "<C-o>gj", opts)
+keymap("i", "<C-k>", "<C-o>gk", opts)
+keymap("i", "<C-l>", "<Right>", opts)
+
 -- Buffer Navigation
 keymap("n", "<A-h>", ":BufferLineCyclePrev <CR>", opts)
 keymap("n", "<A-l>", ":BufferLineCycleNext <CR>", opts)
