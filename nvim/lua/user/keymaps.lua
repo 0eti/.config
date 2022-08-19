@@ -2,17 +2,21 @@ local keymap = vim.api.nvim_set_keymap
 local opts = {noremap = true, silent = false}
 
 -- Bind Leader Key
+keymap("", "<Space>", "<Nop>", opts)
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
-keymap("", "<Space>", "<Nop>", opts) -- Don't want movement
 
 -- Make movement compatible w. wrapped lines by default
 keymap("n", "j", "gj", opts)
 keymap("n", "k", "gk", opts)
 
 -- Buffer Navigation
-keymap("n", "<Leader>j", ":bprevious <CR>", opts)
-keymap("n", "<Leader>k", ":bnext <CR>", opts)
+keymap("n", "<A-h>", ":BufferLineCyclePrev <CR>", opts)
+keymap("n", "<A-l>", ":BufferLineCycleNext <CR>", opts)
+keymap("n", "<A-H>", ":BufferLineMovePrev <CR>", opts)
+keymap("n", "<A-L>", ":BufferLineMoveNext <CR>", opts)
+keymap("n", "<A-w>", ":Bdelete <CR>", opts)
+keymap("n", "<A-W>", ":bufdo :Bdelete <CR>", opts)
 
 -- When Indenting, Keep Text Selected
 keymap("v", "<", "<gv", opts)

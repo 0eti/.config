@@ -8,5 +8,6 @@
 !/README.md
 !/.gitignore
 !/alacritty
+!/tmux
 !/karabiner
 !/nvim
