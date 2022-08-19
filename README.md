@@ -1,9 +1,16 @@
 # .config
 
-My dotfiles for my editor setup. 
+dotfiles for my dev setup 
 
-## Main Ideas
-- nvim for modal editing
+## General Overview
+- neovim
   - plugins
-    - completions, lsp, treesitter, formating, & linting
+    - completions, lsp, treesitter, formatting, & linting
     - file explorer & fuzzy finder
+    - buffer management
+- tmux
+  - multiplexing
+- alacritty/iterm2
+  - terminal emulator
+- karabiner
+  - shortcuts for media keys, input sources, application access, and vim-like navigation
