@@ -15,6 +15,10 @@ keymap("i", "<C-h>", "<Left>", opts)
 keymap("i", "<C-j>", "<C-o>gj", opts)
 keymap("i", "<C-k>", "<C-o>gk", opts)
 keymap("i", "<C-l>", "<Right>", opts)
+keymap("i", "<Left>", "<Left>", opts)
+keymap("i", "<Down>", "<C-o>gj", opts)
+keymap("i", "<Up>", "<C-o>gk", opts)
+keymap("i", "<Right>", "<Right>", opts)
 
 -- Buffer Navigation
 keymap("n", "<A-h>", ":BufferLineCyclePrev <CR>", opts)
