@@ -34,4 +34,6 @@ return require('packer').startup(function(use)
 
   -- Colorschemes
   use { "EdenEast/nightfox.nvim" }
+  use { "rebelot/kanagawa.nvim" }
+  use { "folke/tokyonight.nvim" }
 end)
