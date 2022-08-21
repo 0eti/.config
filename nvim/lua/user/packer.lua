@@ -28,6 +28,10 @@ return require('packer').startup(function(use)
   use { "williamboman/mason.nvim" }
   use { "williamboman/mason-lspconfig.nvim" }
 
+  -- Treesitter
+  use { "nvim-treesitter/nvim-treesitter", run = ":TsUpdate" }
+  use { "p00f/nvim-ts-rainbow" }
+
   -- Colorschemes
   use { "EdenEast/nightfox.nvim" }
 end)
