@@ -19,8 +19,8 @@ keymap("i", "<C-l>", "<Right>", opts)
 -- Buffer Navigation
 keymap("n", "<A-h>", ":BufferLineCyclePrev <CR>", opts)
 keymap("n", "<A-l>", ":BufferLineCycleNext <CR>", opts)
-keymap("n", "<A-H>", ":BufferLineMovePrev <CR>", opts)
-keymap("n", "<A-L>", ":BufferLineMoveNext <CR>", opts)
+keymap("n", "<A-j>", ":BufferLineMovePrev <CR>", opts)
+keymap("n", "<A-k>", ":BufferLineMoveNext <CR>", opts)
 keymap("n", "<A-w>", ":Bdelete <CR>", opts)
 keymap("n", "<A-W>", ":bufdo :Bdelete <CR>", opts)
 

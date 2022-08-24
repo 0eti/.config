@@ -1,7 +1,7 @@
 return require('packer').startup(function(use)
   -- Packer
   use { "wbthomason/packer.nvim" }
-  
+
   --- Common Plugins
   use { "nvim-lua/popup.nvim" }
   use { "nvim-lua/plenary.nvim" }
@@ -27,6 +27,9 @@ return require('packer').startup(function(use)
   use { "neovim/nvim-lspconfig" }
   use { "williamboman/mason.nvim" }
   use { "williamboman/mason-lspconfig.nvim" }
+
+  -- Linting Formating
+  use { "jose-elias-alvarez/null-ls.nvim" }
 
   -- Treesitter
   use { "nvim-treesitter/nvim-treesitter", run = ":TsUpdate" }
