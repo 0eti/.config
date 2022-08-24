@@ -11,3 +11,6 @@ require("user.features.mason")
 require("user.features.lsp")
 require("user.features.treesitter")
 require("user.features.null-ls")
+
+vim.opt.foldmethod = "expr"
+vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
