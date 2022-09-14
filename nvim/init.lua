@@ -1,13 +1,13 @@
 require("user.reload")
 
-require("user.configs.options")
-require("user.configs.keymaps")
-require("user.configs.colorscheme")
+require("user.config.options")
+require("user.config.keymaps")
+require("user.config.colorscheme")
 
-require("user.plugins")
-require("user.plugins.layout.nvim-tree")
-require("user.plugins.layout.telescope")
-require("user.plugins.layout.bufferline")
+require("user.plugin")
+require("user.plugin.layout.nvim-tree")
+require("user.plugin.layout.telescope")
+require("user.plugin.layout.bufferline")
 
 -- require("user.features.completions.nvim-cmp")
 -- require("user.features.mason")
