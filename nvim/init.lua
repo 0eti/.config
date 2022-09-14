@@ -4,6 +4,7 @@ require("user.core.options")
 require("user.core.keymaps")
 require("user.core.colorscheme")
 require("user.core.folding")
+require("user.core.autocmds")
 
 require("user.plugins")
 require("user.plugins.layout.nvim-tree")
@@ -15,3 +16,4 @@ require("user.plugins.packages.mason")
 -- require("user.features.lsp")
 -- require("user.features.null-ls")
 require("user.plugins.packages.treesitter.nvim-treesitter")
+

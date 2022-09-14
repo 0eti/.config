@@ -9,4 +9,5 @@ function _G.ReloadConfig()
   dofile(vim.env.MYVIMRC)
   require("nvim-tree.api").tree.toggle()
 
+
 end
