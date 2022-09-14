@@ -16,6 +16,13 @@ keymap("i", "<C-j>", "<C-o>gj", opts)
 keymap("i", "<C-k>", "<C-o>gk", opts)
 keymap("i", "<C-l>", "<Right>", opts)
 
+-- Alternate esc sequence
+keymap("i", "jk", "<Esc>", opts)
+keymap("i", "kj", "<Esc>", opts)
+
+-- Save
+keymap("n", "<A-s>", ":w <CR>", opts)
+
 -- Buffer Navigation
 keymap("n", "<A-h>", ":BufferLineCyclePrev <CR>", opts)
 keymap("n", "<A-l>", ":BufferLineCycleNext <CR>", opts)
@@ -31,6 +38,9 @@ keymap("v", ">", ">gv", opts)
 -- Moving Selected Text
 keymap("v", "<A-j>", ":move '>+1 <CR>gv", opts)
 keymap("v", "<A-k>", ":move '<-2 <CR>gv", opts)
+
+-- Uncache requires & Reload init.lua
+keymap("n", "<Leader>r", ":lua ReloadConfig() <CR>", opts)
 
 -- File Explorer Quick Access
 -- keymap("n", "<Leader>e", ":Lexplore <CR>", opts)
