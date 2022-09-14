@@ -1,19 +1,17 @@
 require("user.reload")
 
-require("user.config.options")
-require("user.config.keymaps")
-require("user.config.colorscheme")
+require("user.core.options")
+require("user.core.keymaps")
+require("user.core.colorscheme")
+require("user.core.folding")
 
-require("user.plugin")
-require("user.plugin.layout.nvim-tree")
-require("user.plugin.layout.telescope")
-require("user.plugin.layout.bufferline")
+require("user.plugins")
+require("user.plugins.layout.nvim-tree")
+require("user.plugins.layout.telescope")
+require("user.plugins.layout.bufferline")
 
+require("user.plugins.packages.mason")
 -- require("user.features.completions.nvim-cmp")
--- require("user.features.mason")
 -- require("user.features.lsp")
--- require("user.features.treesitter")
 -- require("user.features.null-ls")
-
--- vim.opt.foldmethod = "expr"
--- vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
+require("user.plugins.packages.treesitter.nvim-treesitter")

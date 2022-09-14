@@ -1,6 +1,5 @@
-local configs = require("nvim-treesitter.configs")
 
-configs.setup({
+require("nvim-treesitter.configs").setup({
   ensure_installed = { 
     "javascript", "typescript", "tsx", "json", "html", "css", 
     "python",

@@ -39,7 +39,7 @@ keymap("v", ">", ">gv", opts)
 keymap("v", "<A-j>", ":move '>+1 <CR>gv", opts)
 keymap("v", "<A-k>", ":move '<-2 <CR>gv", opts)
 
--- Uncache requires & Reload init.lua
+-- Uncache 'requires' & Reload init.lua
 keymap("n", "<Leader>r", ":lua ReloadConfig() <CR>", opts)
 
 -- File Explorer Quick Access
