@@ -12,8 +12,8 @@ require("user.plugins.layout.telescope")
 require("user.plugins.layout.bufferline")
 
 require("user.plugins.packages.mason")
--- require("user.features.completions.nvim-cmp")
--- require("user.features.lsp")
+require("user.plugins.completions.nvim-cmp")
+require("user.plugins.packages.lsp")
 -- require("user.features.null-ls")
-require("user.plugins.packages.treesitter.nvim-treesitter")
+require("user.plugins.treesitter.nvim-treesitter")
 

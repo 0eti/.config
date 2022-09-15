@@ -28,6 +28,11 @@ local kind_icons = {
 
 local cmp = require("cmp")
 cmp.setup({
+  snippet = {
+    expand = function(args)
+      require('luasnip').lsp_expand(args.body) -- For `luasnip` users.
+    end,
+  },
   mapping = cmp.mapping.preset.insert({
     ['<C-Space>'] = cmp.mapping.complete(),
     ['<CR>'] = cmp.mapping.confirm({ select = true }),
@@ -60,6 +65,7 @@ cmp.setup({
   },
 
   sources = {
+    { name = 'luasnip' },
     { name = "nvim_lsp" },
     { name = "buffer" },
     { name = "path" },
