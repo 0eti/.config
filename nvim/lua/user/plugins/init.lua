@@ -41,4 +41,7 @@ return require('packer').startup(function(use)
   use { "EdenEast/nightfox.nvim" }
   use { "rebelot/kanagawa.nvim" }
   use { "folke/tokyonight.nvim" }
+
+  -- Translator
+  use { "voldikss/vim-translator" }
 end)
