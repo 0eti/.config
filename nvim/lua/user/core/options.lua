@@ -3,8 +3,10 @@ local options = {
   clipboard = "unnamedplus", -- Vim synced with system clipboard 
   -- mouse = "a", -- Enable mouse in "all" modes
   cursorline = true, -- Underlines current line
-  termguicolors = true, -- More vivid colors & changes cursorline to a highlight
+  -- termguicolors = true, -- More vivid colors & changes cursorline to a highlight
   wrap = true, -- Wraps overflowed lines. Use gj & gk to move up & down within wrapped line. Might rebind that.
+  linebreak = true, -- Ensure overflow line wrap doesn't break words
+  -- display = "lastline", -- Scroll partial lines
 
   -- Number Lines
   number = true, -- Number lines

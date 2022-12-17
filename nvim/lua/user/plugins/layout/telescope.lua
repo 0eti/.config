@@ -1,5 +1,6 @@
 local telescope = require("telescope")
 local actions = require("telescope.actions")
+--local media_files = require('telescope').load_extension('media_files')
 
 telescope.setup({
   defaults = {
@@ -9,7 +10,7 @@ telescope.setup({
         ["<C-k>"] = actions.move_selection_previous,
      }
     }
-  }
+  },
 })
 
 

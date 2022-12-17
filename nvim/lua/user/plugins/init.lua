@@ -12,6 +12,7 @@ return require('packer').startup(function(use)
 
   -- Fuzzy Finder
   use { "nvim-telescope/telescope.nvim", { branch = "0.1.x" } }
+  -- use { 'nvim-telescope/telescope-media-files.nvim' }
 
   -- Buffer Management
   use { "akinsho/bufferline.nvim" }
@@ -36,6 +37,9 @@ return require('packer').startup(function(use)
   -- Treesitter
   use { "nvim-treesitter/nvim-treesitter", run = ":TsUpdate" }
   use { "p00f/nvim-ts-rainbow" }
+
+  -- Hologram
+  use { "edluffy/hologram.nvim" }
 
   -- Colorschemes
   use { "EdenEast/nightfox.nvim" }
