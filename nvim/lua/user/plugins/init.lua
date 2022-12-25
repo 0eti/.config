@@ -35,8 +35,8 @@ return require('packer').startup(function(use)
   use { "jose-elias-alvarez/null-ls.nvim" }
 
   -- Treesitter
-  use { "nvim-treesitter/nvim-treesitter", run = ":TsUpdate" }
-  use { "p00f/nvim-ts-rainbow" }
+  -- use { "nvim-treesitter/nvim-treesitter", run = ":TsUpdate" }
+  -- use { "p00f/nvim-ts-rainbow" }
 
   -- Hologram
   use { "edluffy/hologram.nvim" }

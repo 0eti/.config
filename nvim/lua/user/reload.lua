@@ -7,7 +7,7 @@ function _G.ReloadConfig()
   end
 
   dofile(vim.env.MYVIMRC)
-  require("nvim-tree.api").tree.toggle()
+  -- require("nvim-tree.api").tree.toggle()
 
 
 end
