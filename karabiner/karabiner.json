@@ -410,38 +410,6 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "i",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "fn"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open '/System/Library/CoreServices/Finder.app'"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "b",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "fn"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open '/System/Applications/Music.app'"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
                                     "key_code": "n",
                                     "modifiers": {
                                         "mandatory": [
@@ -462,7 +430,7 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "fn",
-                                            "left_shift"
+                                            "left_control"
                                         ]
                                     }
                                 },
@@ -479,7 +447,7 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "fn",
-                                            "left_control"
+                                            "left_shift"
                                         ]
                                     }
                                 },
@@ -502,6 +470,57 @@
                                 "to": [
                                     {
                                         "shell_command": "open '/Applications/Google Chrome.app'"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "m",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "fn",
+                                            "left_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open '/System/Applications/Music.app'"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "p",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "fn"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open '/System/Library/CoreServices/Finder.app'"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "p",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "fn",
+                                            "left_shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        
+                                        "shell_command": "open '/System/Applications/Preview.app'"
                                     }
                                 ],
                                 "type": "basic"
