@@ -60,11 +60,13 @@
   "[python]": {
     "editor.formatOnType": true
   },
-  "vim.normalModeKeyBindingsNonRecursive": [
+  "vim.normalModeKeyBindingsNonRecursive": [],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["J", "K"],
+      "after": ["<Esc>"]
+    }
   ],
-  "vim.insertModeKeyBindings": [{
-    "before": ["J", "K"],
-    "after": ["<Esc>"]
-  }],
   "explorer.sortOrder": "type",
+  "vim.foldfix": true
 }
