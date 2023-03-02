@@ -1,0 +1,69 @@
+{
+  "editor.wordWrap": "on",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "editor.tabSize": 2,
+  "typescript.preferences.quoteStyle": "single",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "pdf-preview.default.cursor": "hand",
+  "pdf-preview.default.sidebar": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "git.enableSmartCommit": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "python.pythonPath": "/usr/local/bin/python3",
+  "python.defaultInterpreterPath": "/usr/local/bin/python3",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "typescript.tsserver.log": "off",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "typescript.tsserver.maxTsServerMemory": 8192,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.factorypath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/node_modules": true
+  },
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": false,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false
+  },
+  "editor.accessibilitySupport": "off",
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "debug.javascript.autoAttachFilter": "onlyWithFlag",
+  "[plaintext]": {
+    "editor.quickSuggestions": {
+      "other": false,
+      "comments": false,
+      "strings": false
+    }
+  },
+  "window.zoomLevel": 1,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "vim.normalModeKeyBindingsNonRecursive": [
+  ],
+  "vim.insertModeKeyBindings": [{
+    "before": ["J", "K"],
+    "after": ["<Esc>"]
+}],
+}
