@@ -14,7 +14,7 @@
   {
     "key": "ctrl-w ctrl-w",
     "command": "workbench.files.action.focusFilesExplorer",
-    "when": "!terminalFocus"
+    "when": "!terminalFocus && vim.mode != 'Insert'"
   },
   {
     "key": "ctrl-w ctrl-w",
