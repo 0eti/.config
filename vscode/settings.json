@@ -56,12 +56,18 @@
       "strings": false
     }
   },
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 2,
   "[python]": {
     "editor.formatOnType": true
   },
   "vim.normalModeKeyBindingsNonRecursive": [],
   "vim.insertModeKeyBindings": [
+    {
+      "before": ["J", "K"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
     {
       "before": ["J", "K"],
       "after": ["<Esc>"]
