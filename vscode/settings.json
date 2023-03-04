@@ -61,16 +61,34 @@
     "editor.formatOnType": true
   },
   "vim.normalModeKeyBindingsNonRecursive": [],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["j"],
+      "after": ["g", "j"]
+    },
+    {
+      "before": ["k"],
+      "after": ["g","k"]
+    }
+  ],
   "vim.insertModeKeyBindings": [
     {
       "before": ["J", "K"],
       "after": ["<Esc>"]
-    }
+    },
   ],
   "vim.visualModeKeyBindings": [
     {
       "before": ["J", "K"],
       "after": ["<Esc>"]
+    },
+    {
+      "before": ["j"],
+      "after": ["g", "j"]
+    },
+    {
+      "before": ["k"],
+      "after": ["g","k"]
     }
   ],
   "explorer.sortOrder": "type",
