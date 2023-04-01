@@ -1,11 +1,22 @@
 // Place your key bindings in this file to override the defaultsauto[]
-// testing 123456
 [
+  // pane navigation
+  { "key": "ctrl+h", "command": "workbench.action.navigateLeft" },
+  { "key": "ctrl+l", "command": "workbench.action.navigateRight" },
+  { "key": "ctrl+j", "command": "workbench.action.navigateDown" },
+  { "key": "ctrl+k", "command": "workbench.action.navigateUp" },
   {
-    "key": "cmd+e",
-    "command": "editor.action.showHover",
-    "when": "editorTextFocus"
+    "key": "ctrl-w ctrl-w",
+    "command": "workbench.files.action.focusFilesExplorer",
+    "when": "!terminalFocus && vim.mode != 'Insert'"
   },
+  {
+    "key": "ctrl-w ctrl-w",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "!terminalFocus && filesExplorerFocus"
+  },
+
+  // file explorer
   {
     "key": "cmd+n",
     "command": "explorer.newFile",
@@ -16,34 +27,11 @@
     "command": "explorer.newFolder",
     "when": "filesExplorerFocus"
   },
+
+  // translation
   {
-    "key": "ctrl-w ctrl-w",
-    "command": "workbench.files.action.focusFilesExplorer",
-    "when": "!terminalFocus && vim.mode != 'Insert'"
-  },
-  {
-    "key": "ctrl-w ctrl-w",
-    "command": "workbench.action.focusActiveEditorGroup",
-    "when": "filesExplorerFocus"
-  },
-  {
-    "key": "ctrl-w ctrl+h",
-    "command": "workbench.files.action.focusFilesExplorer",
-    "when": "vim.mode != 'Insert'"
-  },
-  {
-    "key": "ctrl-w ctrl+l",
-    "command": "workbench.action.focusActiveEditorGroup",
-    "when": "vim.mode != 'Insert'"
-  },
-  {
-    "key": "ctrl-w ctrl+j",
-    "command": "workbench.action.terminal.focus",
-    "when": "vim.mode != 'Insert'"
-  }, 
-  {
-    "key": "ctrl-w ctrl+k",
-    "command": "workbench.action.focusActiveEditorGroup",
-    "when": "vim.mode != 'Insert'"
+    "key": "ctrl+t",
+    "command": "completeTranslate",
+    "when": "editorTextFocus"
   }
 ]
