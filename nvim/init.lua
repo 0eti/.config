@@ -1,3 +1,4 @@
+-- OLD NVIM CONFIG
 -- require("user.reload")
 
 -- require("user.core.options")
