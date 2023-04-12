@@ -3,13 +3,13 @@
   "workbench.colorTheme": "Default Dark+ Experimental",
   "workbench.iconTheme": "material-icon-theme",
   "terminal.integrated.fontFamily": "MesloLGS NF",
+  "window.zoomLevel": 3,
 
   // editor
   "editor.wordWrap": "on",
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
   "editor.wordBasedSuggestions": false,
-  "window.zoomLevel": 2,
   "explorer.sortOrder": "type",
 
   "files.exclude": {
@@ -47,6 +47,8 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "notebook.lineNumbers": "on",
+  "python.languageServer": "Pylance",
   "[python]": {
     "editor.formatOnType": true
   },
