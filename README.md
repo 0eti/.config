@@ -4,9 +4,9 @@ dotfiles & misc configurations
 
 ## General Overview
 
-Spent a long time trying to make vim into vscode. Kinda worked, but became a headache to maintain.
+Spent a long time trying to make vim into vscode. Kinda worked, but was unstable and gradually became a migraine to maintain.
 
-For my case, I found it significantly easier to bring vscode closer to vim (via vim emulation). This convenience comes at the cost of performance (esp in larger files). I tried using vscode+vim/nvim without emulation, but it unfortunately doesn't play nice with other extensions.
+For my case, I found it significantly easier to bring vscode closer to vim (via vim emulation). However, this convenience came at the cost of performance, especially for larger files. I tried using vscode+vim/nvim without emulation, but it unfortunately didn't play nice with other extensions.
 
 - vscode
   - setup tailored for typescript
