@@ -3,7 +3,7 @@
   "workbench.colorTheme": "Default Dark+ Experimental",
   "workbench.iconTheme": "material-icon-theme",
   "terminal.integrated.fontFamily": "MesloLGS NF",
-  "window.zoomLevel": 3,
+  "window.zoomLevel": 1,
 
   // editor
   "editor.wordWrap": "on",
@@ -47,15 +47,16 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "notebook.lineNumbers": "on",
   "python.languageServer": "Pylance",
   "[python]": {
     "editor.formatOnType": true
   },
 
   // vim
+  "vim.leader": " ",
   "vim.foldfix": true,
   "vim.useSystemClipboard": true,
+  "vim.camelCaseMotion.enable": true,
   "vim.normalModeKeyBindings": [
     {
       "before": ["j"],
