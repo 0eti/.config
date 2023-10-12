@@ -1,9 +1,6 @@
 {
-  // visuals
-  "workbench.colorTheme": "Default Dark+ Experimental",
   "workbench.iconTheme": "material-icon-theme",
   "terminal.integrated.fontFamily": "MesloLGS NF",
-  "window.zoomLevel": 1,
 
   // editor
   "editor.wordWrap": "on",
@@ -12,6 +9,11 @@
   "editor.wordBasedSuggestions": false,
   "explorer.sortOrder": "type",
 
+  // tokenization
+  "editor.maxTokenizationLineLength": 1000,
+  "editor.experimental.asyncTokenization": true,
+
+  // exclude from explorer
   "files.exclude": {
     "**/.classpath": true,
     "**/.factorypath": true,
@@ -73,6 +75,14 @@
     {
       "before": ["K"],
       "after": ["5", "g", "k"]
+    },
+    {
+      "before": ["<C-d>"],
+      "after": ["<C-d>", "z", "z"]
+    },
+    {
+      "before": ["<C-u>"],
+      "after": ["<C-u>", "z", "z"]
     }
   ],
   "vim.insertModeKeyBindings": [
@@ -108,5 +118,27 @@
   "extensions.ignoreRecommendations": true,
   "extensions.experimental.affinity": {
     "vscodevim.vim": 1
-  }
+  },
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.advanced": {},
+  "github.copilot.inlineSuggest.enable": true,
+
+  "editor.tokenColorCustomizations": {
+    "[Kanagawa]": {
+      "comments": {
+        "foreground": "#FF9E3B"
+      }
+    }
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "notebook.lineNumbers": "on",
+  "editor.lineNumbers": "relative",
+  "liveshare.notebooks.allowGuestExecuteCells": true,
+  "files.autoSave": "afterDelay",
+  "window.zoomLevel": 1
 }
