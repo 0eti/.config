@@ -2,7 +2,7 @@
     "global": {
         "check_for_updates_on_startup": true,
         "show_in_menu_bar": true,
-        "show_profile_name_in_menu_bar": false
+        "show_profile_name_in_menu_bar": true
     },
     "profiles": [
         {
@@ -40,7 +40,7 @@
                 },
                 "rules": [
                     {
-                        "description": "Modes (CMD + slash)",
+                        "description": "Modes (unused)",
                         "manipulators": [
                             {
                                 "type": "basic",
@@ -403,45 +403,12 @@
                                         }
                                     }
                                 ],
-                                "conditions": [
-                                    {
-                                        "type": "variable_if",
-                                        "name": "language-type",
-                                        "value": 0
-                                    }
-                                ],
+                                "conditions": [],
                                 "type": "basic"
                             },
                             {
                                 "from": {
                                     "key_code": "d",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "fn"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "select_input_source": {
-                                            "input_mode_id": "im.rime.inputmethod.Squirrel.Hant",
-                                            "input_source_id": "im.rime.inputmethod.Squirrel.Hant",
-                                            "language": "zh-Hant"
-                                        }
-                                    }
-                                ],
-                                "conditions": [
-                                    {
-                                        "type": "variable_if",
-                                        "name": "language-type",
-                                        "value": 0
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "s",
                                     "modifiers": {
                                         "mandatory": [
                                             "fn"
@@ -457,40 +424,7 @@
                                         }
                                     }
                                 ],
-                                "conditions": [
-                                    {
-                                        "type": "variable_if",
-                                        "name": "language-type",
-                                        "value": 1
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "d",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "fn"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "select_input_source": {
-                                            "input_mode_id": "com.apple.inputmethod.Japanese.Katakana ",
-                                            "input_source_id": "com.apple.inputmethod.Kotoeri.RomajiTyping.Japanese.Katakana",
-                                            "language": "ja"
-                                        }
-                                    }
-                                ],
-                                "conditions": [
-                                    {
-                                        "type": "variable_if",
-                                        "name": "language-type",
-                                        "value": 1
-                                    }
-                                ],
+                                "conditions": [],
                                 "type": "basic"
                             }
                         ]
